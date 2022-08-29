@@ -42,3 +42,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+<!-- Steps
+
+1. setup the project with npx create-react-app appname --template redux
+2. create the User Iterface
+3. setup the firebase and create he app.
+4. create a firebase.js file and then copy the configuration of firebase from firebase console
+5. setup the firebase and import db and auth file from firebase store. 
+6. setup the redux in features section and set the state management. 
+7. 
+
+ -->

@@ -1,0 +1,21 @@
+@import "./styles/header";
+@import './styles/feeds';
+@import './styles/sidebar';
+@import './styles/widgets';
+@import './styles/appBody';
+@import './styles/post';
+@import './styles/login';
+
+
+*{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+@media(max-width:768px){
+    *{font-size: 55%;}
+}
+@media(max-width:468px){
+    *{font-size: 47.5%;}
+}

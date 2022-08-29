@@ -1,0 +1,94 @@
+.sidebar{
+    position: sticky;
+    top:8rem;
+    flex:0.2;
+    border-radius: 1rem;
+    align-items: center;
+    height: fit-content;
+    p{font-size: 1.6rem;}
+    h1{font-size: 3.6rem;}
+    h2{font-size: 2.4rem;}
+    h4{font-size: 1.6rem;}
+    .sidebar__top{
+        background-color: #fff;
+        border: 0.1rem solid gray;
+        border-bottom: 0;
+        border-radius: 1rem 1rem 0 0;
+        padding-bottom: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            height: 10rem;
+            width:100%;
+            object-fit: cover;
+            border-radius: 1rem 1rem 0 0;
+        }
+        .sidebar__avatar{
+            position: relative;
+            top:-5rem;
+            width: 10rem !important; 
+            height:10rem;
+        }
+        h2{
+            font-size: 1.6rem;
+
+        }
+        h4{
+            font-size: 1.3rem;
+            color:gray;
+        }
+        
+    }
+    .sidebar__stats{
+        background-color: #fff;
+        padding-bottom: 1rem;
+        border: 0.1rem solid rgb(165, 164, 164);
+        border-radius:0 0 1rem 1rem;
+        padding:1rem;
+        color: gray;
+
+        .sidebar__stat{
+            display: flex;
+            justify-content: space-between;
+            .sidebar__statNumber{
+                color:#0A66C2;
+            }
+            
+        }
+    }
+    .sidebar__bottom{
+        background-color: #fff;
+        border: 0.1rem solid rgb(165, 164, 164);
+        margin-top: 2rem;
+        border-radius: 1rem;
+        padding:1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sidebar__recentitem{
+            font-size:1.3rem ;
+            padding-top: 1.2rem;
+            color:gray;
+            cursor: pointer;
+            display: flex;
+            width:100%;
+            text-align: left;
+            &:hover{
+                color:black;
+                background-color: whitesmoke;
+            }
+            .sidebar__hash{
+                font-size: 1.3rem;
+            }
+        }
+
+    }
+     @media screen and (max-width:425px) {
+         display: none;
+     }
+}

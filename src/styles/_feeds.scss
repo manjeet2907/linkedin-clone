@@ -1,0 +1,64 @@
+.feed{
+    flex:0.6;
+    margin:0 4rem;
+    .feed__inputContainer{
+        background-color: #fff;
+        padding:1rem;
+        padding-bottom: 2rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        .feed__input{
+            border:.1rem solid lightgray;
+            border-radius: 1rem;
+            display: flex;
+            padding:1rem;
+            color:gray;
+            padding-left: 1.5rem;
+            font-size: 1.6rem;
+            form{
+                display: flex;
+                width: 100%;
+                input{
+                    font-size: 1.6rem;
+                    border:none;
+                    flex:1;
+                    outline-width: 0;
+                    font-weight: 600;
+                }
+                button{
+                    font-size: 1.6rem;
+                    display: none;
+                }
+            }
+            .feed__icon{
+                font-size: 2rem;
+                margin-right: .5rem;
+            }
+        }
+    }
+    .feed__inputOptions{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:50%;
+        // margin:auto;
+        margin-top:1rem;
+        .inputoptions{
+            display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: .5rem 1rem;
+            &:hover{
+                background-color: whitesmoke;
+                border-radius: 1rem;
+            }
+            .feed__inputicon{
+                font-size: 3rem !important;
+            }
+            h4{
+                font-size: 1rem;
+            }
+        }
+    }
+}
